@@ -1,5 +1,5 @@
 const url = 'http://localhost:3000/users/';
-
+console.log("hola");
 const getUsuarios = () => {
 	axios
 		.get(url)
